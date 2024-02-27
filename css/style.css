@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+*,*:before,*:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body{ margin:0px; padding:0px; font-size:12px;font-family:"微软雅黑","黑体";color:#898989;line-height:1; background:#FFF;min-width: 1200px;}
+ul,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,ol,form,input{ margin:0px; padding:0px;}
+input,textarea { font-family: "微软雅黑"; border: none; outline: none; background: none; }
+ul,li{ list-style:none}
+img{border:0px; padding:0px; display: block;}
+a{ color:#5c5c5c; text-decoration:none}
+
+h2,h3,h4,b,strong { font-weight: normal; }
+em,i { font-style: normal; }
+
+.clear{ zoom: 1; }
+.clear:after { content: ''; display: block; clear: both; }
+.fl { float:left}
+.fr { float:right}
+.hidden{display:none; background: url() no-repeat center;}
+
+.header{height: 80px; background: url(../images/a1.png);overflow: hidden;background-size: auto 100%; position: relative; z-index: 100;}
+.logo{float: left;}
+.logo img{height: 80px;}
+.left{position:fixed;height: 100%;width: 300px;left: 0; top: 0; padding-top: 80px;background: url(../images/a2.png) repeat-y right top #fff; padding-right: 30px;background-size: 18px auto;}
+.left ul{height: 100%; background: #ebf0f6;}
+.left li{border-bottom:1px solid #fff;}
+.left a{display: block; padding: 0 15px; font-size: 18px; color: #0574c3; line-height: 50px;background: url(../images/a5.png)  no-repeat 95% center; background-size: 20px 20px;}
+.zdbtn{position: absolute; right: 0; border-radius: 0 6px 6px 0;height: 150px;border:1px solid #999;width: 20px;cursor: pointer;top:50%; transform: translateY(-50%);background:url(../images/a3.png) no-repeat center #91c7f6;border-left: none;background-size: 22px 22px;}
+
+.right{padding: 20px 0 0 340px;}
+.rightbox p{line-height: 2; font-size: 24px; color: #ff0000;text-align: center;}
+.left li.cur a{background:url(../images/a5.png)  no-repeat 95% #c2d5e4;background-size: 20px 20px;}
+.rightbox img{max-width: 100%; margin: 0 auto; }
+.wzgn{float: right; padding-right: 20px;}
+.wzgn ul{overflow: hidden;}
+.wzgn li{font-size: 16px; line-height: 80px; padding-right: 10px;float: left;}
+.wzgn li a{color: #333;}
+.wzgn li.cur a{color: #4196e2;text-decoration: underline;}
+.wzgn img{display: inline-block;vertical-align: middle; margin: -3px 10px 0 0;}
+.wzgn li.cur a{color: #1565ad;text-decoration: underline;}
+.wzgn a:hover{color: #1565ad;text-decoration: underline;}

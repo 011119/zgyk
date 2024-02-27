@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/swiper.css" type="text/css">
+<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a1.jpg"/></a></h1>
+	<div class="wzgn">
+		<ul>
+			<li class="cur"><a href=""><img src="images/a7.png"/>首页</a></li>
+			<li><a href=""><img src="images/a8.png"/>注销</a></li>
+			<li><a href=""><img src="images/a9.png"/>下载系统打印插件</a></li>
+		</ul>
+	</div>
+</div>
+<div class="left">
+	<ul>
+		<li class="cur"><a href="javascript:void(0);">初试成绩查询</a></li>
+		<li><a href="javascript:void(0);">初试成绩复核申请</a></li>
+		<li><a href="javascript:void(0);">心理测试</a></li>
+		<li><a href="javascript:void(0);">复试成绩查询</a></li>
+		<li><a href="javascript:void(0);">录取情况查询</a></li>
+		<li><a href="javascript:void(0);">录取通知书寄发地址</a></li>
+		<li><a href="javascript:void(0);">调档函下载打印</a></li>
+		<li><a href="javascript:void(0);">合同下载打印</a></li>
+	</ul>
+	<span class="zdbtn"></span>
+</div>
+<div class="right">
+	<div class="rightbox">
+		
+		<img src="images/a11.png"/>
+	</div>
+	<div class="rightbox" style="display: none;">
+		<img src="images/a10.jpg"/>
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+	<div class="rightbox" style="display: none;">
+		该系统暂未开通
+	</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+	$(".left li").click(function(){
+		var num = $(this).index();
+		$(this).addClass("cur").siblings().removeClass("cur");
+		$('.right .rightbox').eq(num).show().siblings().hide();
+	})
+</script>
